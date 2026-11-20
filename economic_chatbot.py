@@ -11,7 +11,7 @@ import os
 WORLD_BANK_API_URL = "https://api.worldbank.org/v2"
 
 # --- Secure Gemini API Key ---
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyAutTQ8TIDcq3SK0jU7prvw-riRI0tBweY")  # fallback for local/test only
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Indicator mapping for fuzzy matching
