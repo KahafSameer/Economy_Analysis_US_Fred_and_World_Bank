@@ -3,3 +3,7 @@
 .env
 .env.*
 !.env.example
+
+# Build artifacts / dependencies
+__pycache__/
+*.pyc
