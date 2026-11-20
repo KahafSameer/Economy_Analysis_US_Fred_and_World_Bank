@@ -76,8 +76,8 @@ Whether you're an economist, researcher, student, or data enthusiast, this dashb
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/us-economic-dashboard.git
-   cd us-economic-dashboard
+   git clone https://github.com/KahafSameer/Economy_Analysis_US_Fred_and_World_Bank.git
+   cd Economy_Analysis_US_Fred_and_World_Bank
    ```
 
 2. **Create a virtual environment**
@@ -92,7 +92,7 @@ Whether you're an economist, researcher, student, or data enthusiast, this dashb
    ```
 
 4. **Set up environment variables**
-   Create a `.env` file in the project root:
+   Copy [`.env.example`](.env.example) to `.env` in the project root and fill in:
    ```env
    FRED_API_KEY=your_fred_api_key_here
    GEMINI_API_KEY=your_gemini_api_key_here  # Optional
